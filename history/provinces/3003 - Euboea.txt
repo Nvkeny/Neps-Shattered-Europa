@@ -5,7 +5,7 @@ controller = VEN
 culture = greek
 religion = orthodox
 capital = "Negroponte"
-trade_goods = fish
+trade_goods = apiculture
 hre = no
 base_tax = 2
 base_production = 2
@@ -13,6 +13,7 @@ base_manpower = 1
 is_city = yes
 add_core = VEN
 add_core = BYZ
+add_core = NEG
 estate = estate_nobles
 
 discovered_by = KAZ
@@ -24,6 +25,9 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
+
+1444.11.12 = { remove_core = VEN remove_core = BYZ owner = NEG }
+1444.11.31 = { add_core = VEN add_core = BYZ owner = VEN add_local_autonomy = -32 }
 
 1470.7.1 = {
 	owner = TUR

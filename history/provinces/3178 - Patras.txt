@@ -29,6 +29,10 @@ discovered_by = western
 	owner = BYZ
 	controller = BYZ
 } # To Morea
+
+1444.11.12 = { remove_core = MOE remove_core = BYZ owner = ACH add_local_autonomy = -30 }
+1444.11.31 = { add_core = MOE add_core = BYZ owner = BYZ add_local_autonomy = 11 }
+
 1453.5.29 = {
 	owner = ACH
 	controller = ACH

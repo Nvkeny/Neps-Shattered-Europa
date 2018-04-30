@@ -2334,6 +2334,9 @@ TUS_ideas = {
 		OR = {
 			tag = TUS
 			tag = LAN #Florence
+			tag = MSS
+			tag = PIO
+			tag = ARE
 		}
 	}
 	free = yes

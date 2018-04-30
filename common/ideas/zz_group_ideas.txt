@@ -677,7 +677,10 @@ latin_ideas = {
 	}
 	
 	trigger = {
-		culture_group = latin
+		OR = {
+			culture_group = latin
+			tag = GRI
+		}
 		capital_scope = { region = italy_region }
 	}
 	free = yes

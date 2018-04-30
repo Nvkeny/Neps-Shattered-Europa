@@ -5,7 +5,7 @@ controller = CEP
 culture = greek
 religion = orthodox
 capital = "Corfu"
-trade_goods = wine
+trade_goods = olives
 hre = no
 base_tax = 2
 base_production = 2
@@ -30,6 +30,10 @@ discovered_by = western
 	owner = VEN 
 	controller = VEN
 }
+
+1444.11.12 = { remove_core = VEN remove_core = BYZ owner = CEP }
+1444.11.31 = { add_core = VEN add_core = BYZ owner = VEN add_local_autonomy = -30 }
+
 1610.1.1 = { unrest = 7 } # Exploatation by the nobles, several minor revolts
 1650.1.1 = { unrest = 0 }
 1750.1.1 = { add_core = GRE }
