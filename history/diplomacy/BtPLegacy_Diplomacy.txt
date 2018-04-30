@@ -290,13 +290,21 @@ vassal = {
 	first = QAR
 	second = BHT
 	start_date = 1435.1.1
+<<<<<<< HEAD
 	end_date = 1444.11.16   #BeyondTypus batch edit shortcut no vassal start date begin
+=======
+	end_date = 1444.11.11   #BeyondTypus batch edit shortcut no vassal start date begin #Nep
+>>>>>>> Nep's-World
 }
 
 vassal = {
 	first = QAR
 	second = BHT
+<<<<<<< HEAD
 	start_date = 1444.11.18   #BeyondTypus batch edit shortcut no vassal start date end
+=======
+	start_date = 1444.11.31   #BeyondTypus batch edit shortcut no vassal start date end #Nep
+>>>>>>> Nep's-World
 	end_date = 1469.2.4
 }
 

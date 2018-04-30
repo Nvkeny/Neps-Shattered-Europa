@@ -677,7 +677,14 @@ latin_ideas = {
 	}
 	
 	trigger = {
+<<<<<<< HEAD
 		culture_group = latin
+=======
+		OR = {
+			culture_group = latin
+			tag = GRI
+		}
+>>>>>>> Nep's-World
 		capital_scope = { region = italy_region }
 	}
 	free = yes

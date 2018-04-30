@@ -2334,6 +2334,12 @@ TUS_ideas = {
 		OR = {
 			tag = TUS
 			tag = LAN #Florence
+<<<<<<< HEAD
+=======
+			tag = MSS
+			tag = PIO
+			tag = ARE
+>>>>>>> Nep's-World
 		}
 	}
 	free = yes

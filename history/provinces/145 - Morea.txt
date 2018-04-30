@@ -26,6 +26,12 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
+<<<<<<< HEAD
+=======
+1444.11.12 = { remove_core = BYZ owner = MOE add_local_autonomy = 0 }
+1444.11.31 = { add_core = BYZ owner = BYZ add_local_autonomy = 0 }
+
+>>>>>>> Nep's-World
 1453.5.29 = {
 	owner = MOE
 	controller = MOE

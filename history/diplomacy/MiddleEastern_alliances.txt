@@ -74,7 +74,19 @@ vassal = {
 vassal = {
 	first = QAR
 	second = BTL
+<<<<<<< HEAD
 	start_date = 1435.1.1
+=======
+	start_date = 1435.1.1 #Nep
+	end_date = 1444.11.11
+}
+
+#Kurdish Principalities generally autonomous under Qara Qoyunlu
+vassal = {
+	first = QAR
+	second = BTL
+	start_date = 1444.11.31 #Nep
+>>>>>>> Nep's-World
 	end_date = 1469.2.4
 }
 
@@ -83,7 +95,20 @@ vassal = {
 vassal = {
 	first = QAR
 	second = MLK
+<<<<<<< HEAD
 	start_date = 1435.1.1
+=======
+	start_date = 1435.1.1 #Nep
+	end_date = 1444.11.11
+}
+
+#Melikdoms of Kharabak
+
+vassal = {
+	first = QAR
+	second = MLK
+	start_date = 1444.11.31 #Nep
+>>>>>>> Nep's-World
 	end_date = 1469.2.4
 }
 

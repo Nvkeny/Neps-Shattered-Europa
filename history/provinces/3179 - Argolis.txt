@@ -5,7 +5,11 @@ controller = VEN
 culture = greek
 religion = orthodox
 capital = "Náfplion"
+<<<<<<< HEAD
 trade_goods = fish
+=======
+trade_goods = silver
+>>>>>>> Nep's-World
 hre = no
 base_tax = 4
 base_production = 4
@@ -25,6 +29,12 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
+<<<<<<< HEAD
+=======
+1444.11.12 = { remove_core = VEN remove_core = BYZ add_core = MOE owner = MOE add_local_autonomy = 0 }
+1444.11.31 = { add_core = VEN add_core = BYZ remove_core = MOE owner = VEN add_local_autonomy = 0 }
+
+>>>>>>> Nep's-World
 1540.1.1 = {
 	owner = TUR
 	controller = TUR

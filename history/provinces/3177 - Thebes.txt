@@ -26,6 +26,13 @@ discovered_by = western
 
 1399.1.1 = { add_core = BYZ }
 1402.1.1 = { owner = ATH controller = ATH remove_core = VEN }
+<<<<<<< HEAD
+=======
+
+1444.11.12 = { remove_core = BYZ }
+1444.11.31 = { add_core = BYZ }
+
+>>>>>>> Nep's-World
 1453.5.30 = { add_core = TUR } # The fall of the Byzantine Empire
 1458.1.1 = {
 	owner = TUR

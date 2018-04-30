@@ -24,6 +24,12 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
+<<<<<<< HEAD
+=======
+1444.11.12 = { remove_core = BYZ }
+1444.11.31 = { add_core = BYZ }
+
+>>>>>>> Nep's-World
 1555.1.1 = { unrest = 5 } # General discontent with the Janissaries' dominance
 1556.1.1 = { unrest = 0 }
 1579.1.1 = {	owner = TUR

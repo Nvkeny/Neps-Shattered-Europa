@@ -5,7 +5,11 @@ controller = ACH
 culture = greek
 religion = orthodox
 capital = "Glarentza"
+<<<<<<< HEAD
 trade_goods = wine
+=======
+trade_goods = olives
+>>>>>>> Nep's-World
 hre = no
 base_tax = 3
 base_production = 3
@@ -26,6 +30,11 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
+<<<<<<< HEAD
+=======
+1444.11.12 = { remove_core = BYZ remove_core = MOE owner = ACH }
+1444.11.31 = { add_core = BYZ add_core = MOE owner = BYZ add_local_autonomy = -6 }
+>>>>>>> Nep's-World
 
 1432.1.1 = {
 	owner = BYZ

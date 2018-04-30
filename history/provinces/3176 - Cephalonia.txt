@@ -5,7 +5,11 @@ controller = EPI
 culture = greek
 religion = orthodox
 capital = "Kastro"
+<<<<<<< HEAD
 trade_goods = wine
+=======
+trade_goods = olives
+>>>>>>> Nep's-World
 hre = no
 base_tax = 2
 base_production = 2
@@ -25,6 +29,12 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
+<<<<<<< HEAD
+=======
+1444.11.12 = { remove_core = BYZ }
+1444.11.31 = { add_core = BYZ }
+
+>>>>>>> Nep's-World
 1479.1.1 = { 
 	owner = TUR
 	controller = TUR
