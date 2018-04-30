@@ -1,0 +1,154 @@
+##Levant
+###Created by Atilla and Neprut
+CIL_ideas = {
+	start = {
+		missionaries = 1
+		defensiveness = 0.20
+	}	
+	bonus = {
+		army_tradition = 0.5
+	}	
+	trigger = {
+		tag = CIL
+	}
+	free = yes	
+	westward_migration = {
+		global_manpower_modifier = 0.33
+	}
+	support_from_the_crusaders = {
+		prestige = 1
+		land_forcelimit_modifier = 0.25
+	}
+	rise_of_the_cilician_kingdom = {
+		fabricate_claims_cost = -0.25
+	}
+	carco_cilix = {
+		global_missionary_strength = 0.02
+	}
+	anatolian_riches = {
+		production_efficiency = 0.1
+ 	}
+	eastward_migration = {
+		stability_cost_modifier = -0.1
+		years_of_nationalism = -5
+	}
+	land_of_myths = {
+		prestige_from_land = 0.50
+		infantry_power = 0.10
+	}
+}
+
+###Created by Inkwizytor Zeketer
+crusader_ideas = {
+	start = {
+		global_missionary_strength = 0.02
+		global_manpower_modifier = 0.10
+	}	
+	bonus = {
+		enemy_core_creation = 0.5
+	}	
+	trigger = {
+		OR = {
+			tag = EDE
+			tag = ATC
+			tag = TPL
+			tag = NEG
+		}
+	}
+	free = yes	
+	from_papal_afflatus = {
+		papal_influence = 3
+	}
+	another_crusaders_kings = {
+		heir_chance = 0.25
+	}
+	outremer_trade = {
+		trade_efficiency = 0.20
+	}
+	dry_wells = {
+		land_attrition = -0.10
+	}
+	crusader_marines = {
+		naval_morale = 0.10
+ 	}
+	ordos_militants = {
+		discipline = 0.05
+	}
+	brothers_in_faith = {
+		diplomatic_reputation = 2
+	}
+}
+
+### CK2 Converter
+knights_templar_ideas = {
+	start = {
+		tolerance_heathen = 1
+		diplomatic_reputation = 1
+	}	
+	bonus = {
+		global_manpower_modifier = 0.25
+	}	
+	trigger = {
+		tag = TEM
+		religion_group = christian
+	}
+	free = yes	
+	latin_rule = {
+		discipline = 0.05
+	}
+	letters_of_credit = {
+		global_tax_modifier = 0.2
+	}
+	assault_troops_of_the_crusades = {
+		cavalry_power = 0.1
+	}
+	bank_of_europe = {
+		inflation_reduction = 0.1
+	}
+	the_templar_enterprise = {
+		production_efficiency = 0.2
+	}
+	the_supporting_infrastructure = {
+		advisor_pool = 1
+	}
+	crusader_traditions = {
+		free_leader_pool = 1
+	}
+}
+
+### Unknown
+IRQ_ideas = {
+	start = {
+		army_tradition_decay = -0.01
+		core_creation = -0.20
+	}	
+	bonus = {
+		discipline = 0.05
+	}	
+	trigger = {
+		tag = IRQ
+	}
+	free = yes	
+	irq_cradle_civilization  = {
+		prestige = 1
+	}
+	irq_imam_ali_mosque  = {
+		missionaries = 1
+		tolerance_own = 3
+	}
+	irq_fortify_baghdad  = {
+		defensiveness = 0.2
+	}
+	irq_restore_bayt_al_hikma  = {
+		technology_cost = -0.05
+	}
+	irq_metropolis_of_muslim_world  = {
+		 idea_cost = -0.1
+	}
+	irq_land_between_rivers  = {
+		global_manpower_modifier = 0.25
+	}
+	irq_promote_multiculturalism  = {
+		num_accepted_cultures = 1
+	}
+}

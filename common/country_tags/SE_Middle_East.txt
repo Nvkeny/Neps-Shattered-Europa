@@ -1,0 +1,18 @@
+## ASIA ##
+
+##Ottoman Shenanigans
+OSM	= "countries/Osman.txt"
+TRK = "countries/Turkey.txt"
+
+#Asia
+#HAH = countries/Hashshashin.txt
+HMD = "countries/Hamid.txt"
+
+#Middle East
+#ADN = "countries/Aden.txt"
+ATC = "countries/Antioch.txt"
+#SNA = "countries/Sanaa.txt"
+TPL = "countries/TripoliCrusader.txt"
+
+#Caucasus
+LAZ = "countries/lazistan.txt"
