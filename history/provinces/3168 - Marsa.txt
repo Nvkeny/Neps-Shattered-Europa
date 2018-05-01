@@ -26,6 +26,10 @@ discovered_by = western
 
 1404.1.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB }
 1413.1.1 = { revolt = {} controller = TUR }
+
+1444.11.12 = { remove_core = TUR owner = BUL add_local_autonomy = 0 }
+1444.11.31 = { add_core = TUR owner = TUR add_local_autonomy = 0 }
+
 1555.1.1 = { unrest = 5 } # General discontent against the Janissaries' dominance
 1556.1.1 = { unrest = 2 }
 1598.1.1 = { unrest = 6 } # Oppositions around Tarnovo

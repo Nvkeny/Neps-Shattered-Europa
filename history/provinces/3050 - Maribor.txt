@@ -12,7 +12,7 @@ base_tax = 3
 base_production = 3
 trade_goods = paper
 base_manpower = 2
-capital = "Marburg"
+capital = "Marburg" #Maribor
 is_city = yes
 hre = yes
 
@@ -29,6 +29,11 @@ discovered_by = QAS
 1420.1.1 = {
 	add_core = STY
 } # To the Habsburgs
+
+1444.11.12 = { remove_core = HAB remove_core = STY owner = CNL add_local_autonomy = -30 }
+1444.11.12 = { HRE = no }
+1444.11.21 = { HRE = yes }
+1444.11.31 = { add_core = HAB add_core = STY owner = HAB }
 
 1452.1.1 = {
 	owner = STY

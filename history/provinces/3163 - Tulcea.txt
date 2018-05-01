@@ -13,7 +13,7 @@ base_manpower = 1
 is_city = yes
 add_core = TUR
 add_core = WAL
-
+add_core = KRV
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -30,6 +30,9 @@ add_permanent_province_modifier = {
 	name = danube_estuary_modifier
 	duration = -1
 }
+
+1444.11.12 = { remove_core = WAL remove_core = TUR owner = KRV add_local_autonomy = -5 }
+1444.11.31 = { add_core = WAL add_core = TUR owner = TUR add_local_autonomy = 3 }
 
 1481.6.1 = { unrest = 6 } # Civil war, Bayezid & Jem
 1482.7.26 = { unrest = 0 } # Jem escapes to Rhodes

@@ -11,9 +11,9 @@ culture = slovene
 religion = catholic
 base_tax = 3 
 base_production = 3
-trade_goods = iron
+trade_goods = lead
 base_manpower = 2
-capital = "Gorizia"
+capital = "Gorizia" #Gorica
 estate = estate_nobles
 is_city = yes
 hre = yes
@@ -27,6 +27,9 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
+
+1444.11.12 = { HRE = no }
+1444.11.21 = { HRE = yes }
 
 1500.4.12 = {	
 	owner = HAB

@@ -5,7 +5,7 @@ controller = TUR
 culture = bulgarian
 religion = orthodox
 capital = "Tarnovo"
-trade_goods = iron
+trade_goods = lead
 hre = no
 base_tax = 3
 base_production = 3
@@ -29,6 +29,10 @@ discovered_by = western
 #1402.1.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Interregnum
 1404.1.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB }
 1413.1.1 = { revolt = {} controller = TUR }
+
+1444.11.12 = { remove_core = TUR owner = BUL }
+1444.11.31 = { add_core = TUR owner = TUR }
+
 1555.1.1 = { unrest = 5 } # General discontent against the Janissaries' dominance
 1556.1.1 = { unrest = 2 }
 1598.1.1 = { unrest = 6 } # Oppositions around Tarnovo

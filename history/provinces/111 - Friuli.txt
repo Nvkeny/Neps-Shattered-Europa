@@ -29,6 +29,10 @@ discovered_by = ottoman
 	controller = VEN
 	add_core = VEN
 } # To Venice
+
+1444.11.12 = { remove_core = VEN owner = AQU }
+1444.11.31 = { add_core = VEN owner = VEN add_local_autonomy = -24 }
+
 1593.1.1 = { fort_16th = yes } 
 1797.10.17 = {
 	owner = HAB

@@ -5,7 +5,7 @@ controller = VEN
 culture = venetian
 religion = catholic
 capital = "Càttaro"
-trade_goods = fish
+trade_goods = apiculture
 hre = no
 base_tax = 2
 base_production = 2
@@ -13,11 +13,14 @@ base_manpower = 1
 is_city = yes
 fort_15th = yes			#Moved here from Scutari
 add_core = VEN
-
+add_core = MON
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+1444.11.12 = { remove_core = VEN owner = MON culture = serbian add_local_autonomy = 10 }
+1444.11.31 = { add_core = VEN owner = VEN culture = venetian add_local_autonomy = -40 }
 
 1797.10.17 = {
 	owner = HAB

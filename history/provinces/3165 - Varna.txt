@@ -13,7 +13,7 @@ base_manpower = 1
 is_city = yes
 add_core = TUR
 add_core = BUL
-
+add_core = KRV
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -23,6 +23,9 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
+
+1444.11.12 = { remove_core = BUL remove_core = TUR owner = KRV add_local_autonomy = -5 }
+1444.11.31 = { add_core = BUL add_core = TUR owner = TUR add_local_autonomy = 3 }
 
 1555.1.1 = { unrest = 5 } # General discontent against the Janissaries' dominance
 1556.1.1 = { unrest = 2 }
