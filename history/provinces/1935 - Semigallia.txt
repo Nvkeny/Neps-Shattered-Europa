@@ -5,12 +5,13 @@
 owner = LIV
 controller = LIV
 add_core = LIV
-culture = latvian
-religion = catholic
+add_core = SEM
+culture = semigallian
+religion = baltic_pagan_reformed
 hre = no
 base_tax = 1
 base_production = 1
-trade_goods = naval_supplies
+trade_goods = lumber
 base_manpower = 1
 capital = "Mitau"
 is_city = yes # Estimated
@@ -22,6 +23,9 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
+
+1444.11.12 = { remove_core = LIV owner = SEM }
+1444.11.31 = { add_core = LIV owner = LIV religion = catholic add_local_autonomy = -35 }
 
 1561.1.1 = {
 	owner = KUR

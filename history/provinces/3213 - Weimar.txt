@@ -7,7 +7,7 @@ controller = SAX
 culture = saxon
 religion = catholic
 capital = "Weimar"
-trade_goods = grain
+trade_goods = horses
 hre = yes
 base_tax = 3
 base_production = 3
@@ -20,6 +20,11 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+
+1444.11.12 = { remove_core = SAX owner = THU add_local_autonomy = 0 }
+1444.11.21 = { HRE = no }
+1444.11.31 = { HRE = yes }
+1444.11.31 = { add_core = SAX owner = SAX add_local_autonomy = 0 }
 
 1445.9.10 = { owner = THU controller = THU }
 1531.1.1 = { religion = protestant }

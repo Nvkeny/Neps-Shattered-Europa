@@ -15,7 +15,7 @@ is_city = yes
 add_core = HUN
 add_core = CRO
 add_core = SER
-
+add_core = CUM
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,6 +25,9 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+1444.11.12 = { remove_core = HUN remove_core = CRO remove_core = SER owner = CUM add_local_autonomy = 5 }
+1444.11.31 = { add_core = HUN add_core = CRO add_core = SER owner = HUN add_local_autonomy = -5 }
 
 1526.8.30 = {
 	owner = TUR

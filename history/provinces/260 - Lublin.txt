@@ -9,7 +9,7 @@ controller = POL
 capital= "Lublin"
 culture = polish
 religion = catholic
-trade_goods = cloth
+trade_goods = apiculture
 hre = no
 base_tax = 4
 base_production = 4
@@ -17,7 +17,7 @@ base_manpower = 2
 is_city = yes
 estate = estate_nobles
 add_core = POL
-
+add_core = MPK
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -27,6 +27,9 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+1444.11.12 = { remove_core = POL owner = MPK add_local_autonomy = -32 }
+1444.11.31 = { add_core = POL owner = POL add_local_autonomy = 0 }
 
 1490.1.1 = { unrest = 6 } # Uprising led by Mukha
 1492.1.1 = { unrest = 0 } 

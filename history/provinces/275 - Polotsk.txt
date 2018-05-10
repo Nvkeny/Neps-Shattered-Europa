@@ -21,6 +21,9 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = nomad_group
 
+1444.11.12 = { remove_core = LIT owner = PLT }
+1444.11.31 = { add_core = LIT owner = LIT add_local_autonomy = -17 }
+
 1563.2.15 = { controller = RUS } # Captured by Ivan the Terrible, during the Livonian war
 1569.7.1 = {
 	owner = PLC

@@ -26,9 +26,13 @@ discovered_by = nomad_group
 	owner = LIT
 	controller = LIT
 	add_core = LIT
-	culture = ruthenian
+	culture = cossack
 	religion = orthodox 
 }
+
+1444.11.12 = { remove_core = CRI remove_core = LIT owner = ZAZ add_local_autonomy = -55 }
+1444.11.31 = { add_core = CRI add_core = LIT owner = LIT add_local_autonomy = 55 }
+
 1475.6.1 = { owner = CRI controller = CRI remove_core = LIT remove_core = ZAZ }
 1570.1.1 = { owner = TUR controller = TUR add_core = TUR remove_core = CRI fort_16th = yes }
 1694.1.1 = { owner = ZAZ controller = ZAZ add_core = ZAZ remove_core = TUR }

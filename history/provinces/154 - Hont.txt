@@ -8,7 +8,7 @@ owner = HUN
 controller = HUN 
 culture = slovak
 religion = catholic
-capital = "Érsekújvár"
+capital = "Nitra" #"Érsekújvár"
 trade_goods = copper
 hre = no
 base_tax = 2
@@ -34,6 +34,10 @@ discovered_by = ottoman
 1434.1.1 = { unrest = 0 }
 1440.1.1 = { unrest = 10 } # Struggles between the supporters of Ladislaus and Elisabeth of Hungary
 1443.1.1 = { unrest = 0 }
+
+1444.11.12 = { remove_core = HUN owner = SLO add_local_autonomy = 0 }
+1444.11.31 = { add_core = HUN owner = HUN add_local_autonomy = 0 }
+
 1490.1.1 = { controller = HAB } # Occupied
 1491.11.7 = { controller = HUN }
 1526.8.30 = {

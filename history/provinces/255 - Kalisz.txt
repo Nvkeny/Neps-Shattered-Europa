@@ -6,14 +6,14 @@ culture = polish
 religion = catholic
 capital = "Kalisz"
 estate = estate_church
-trade_goods = cloth
+trade_goods = linen
 hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
 add_core = POL
-
+add_core = WPK
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -23,6 +23,9 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+1444.11.12 = { remove_core = POL owner = WPK add_local_autonomy = -30 }
+1444.11.31 = { add_core = POL owner = POL }
 
 1569.7.1 = {
 	add_core = LIT	# Union of Lublin, west to Poland & south to Lithuania

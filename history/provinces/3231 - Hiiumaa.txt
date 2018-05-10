@@ -5,9 +5,9 @@
 owner = OSL
 controller = OSL
 add_core = OSL
-add_core = EST
+add_core = SRM
 culture = estonian
-religion = catholic
+religion = finnish_pagan_reformed
 hre = no
 base_tax = 1 
 base_production = 1
@@ -24,6 +24,8 @@ discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
 
+1444.11.12 = { owner = SRM }
+1444.11.31 = { owner = OSL add_local_autonomy = -30 }
 
 1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
 	owner = LIV

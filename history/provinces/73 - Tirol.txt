@@ -11,7 +11,7 @@ culture = austrian
 religion = catholic
 base_tax = 4
 base_production = 4
-trade_goods = gold
+trade_goods = silver
 base_manpower = 3
 fort_15th = yes
 capital = "Innsbruck" 
@@ -23,6 +23,10 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
+1444.11.12 = { remove_core = HAB remove_core = STY owner = TIR add_local_autonomy = 0 }
+1444.11.12 = { HRE = no }
+1444.11.21 = { HRE = yes }
+1444.11.31 = { add_core = HAB add_core = STY owner = HAB add_local_autonomy = 0 }
 
 1452.1.1 = {
 	owner = STY

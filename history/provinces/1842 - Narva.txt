@@ -11,7 +11,7 @@ religion = catholic
 hre = no
 base_tax = 1
 base_production = 1
-trade_goods = grain
+trade_goods = tar #barley
 base_manpower = 1
 capital = "Narva"
 is_city = yes
@@ -23,6 +23,9 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
+
+1444.11.12 = { remove_core = LIV owner = EST add_local_autonomy = 0 }
+1444.11.31 = { add_core = LIV owner = LIV add_local_autonomy = 0 }
 
 1558.5.11 = {
 	owner = RUS

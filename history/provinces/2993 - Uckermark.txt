@@ -10,7 +10,7 @@ religion = catholic
 hre = yes
 base_tax = 3			#Okay, Brandenburg's population was minute and the little wealth it did have at the time was overflow from the Novgorod-Brugge route... giving dev based on later importance. Historic rise to power from nothing, like the Low Countries, needs events which I'm too lazy for atm
 base_production = 3
-trade_goods = cloth
+trade_goods = linen
 base_manpower = 2
 capital = "Prenzlau"
 is_city = yes
@@ -19,6 +19,11 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+
+1444.11.12 = { remove_core = BRA add_core = STR owner = STR add_local_autonomy = 0 }
+1444.11.12 = { HRE = no }
+1444.11.21 = { HRE = yes }
+1444.11.31 = { add_core = BRA remove_core = STR owner = BRA add_local_autonomy = 0 }
 
 1539.1.1 = { religion = protestant }
 1650.1.1 = { culture = prussian }

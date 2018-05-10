@@ -7,7 +7,7 @@ add_core = LUS
 capital = "Bautzen"
 culture = sorbian
 religion = catholic
-trade_goods = glass
+trade_goods = woad #glass
 hre = yes
 base_tax = 3
 base_production = 3
@@ -21,6 +21,12 @@ discovered_by = eastern
 
 1419.12.1 = { unrest = 10 } # Hussite Wars, Battle of Nekmir
 1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava
+
+1444.11.12 = { remove_core = BOH owner = LUS add_local_autonomy = 0 }
+1444.11.21 = { HRE = no }
+1444.11.21 = { HRE = yes }
+1444.11.31 = { add_core = BOH owner = BOH add_local_autonomy = 0 }
+
 1453.1.1 = { add_core = POL }
 1457.1.1 = { unrest = 5 } # George of Podiebrand had to secure recognition from the German and Catholic towns. Pilsen is very hostile towards him, the Roman church being dominant throughout Pilsen's history.
 1466.1.1 = {

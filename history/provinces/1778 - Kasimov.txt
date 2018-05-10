@@ -20,12 +20,15 @@ discovered_by = eastern
 discovered_by = nomad_group
 discovered_by = western
 
-1446.1.1 = {
+1444.1.1 = {
 	add_core = QAS
 	capital = "Kasimov"
-	culture = mishary
+	culture = qasim
 	religion = sunni
 }
+
+1444.11.12 = { remove_core = MOS owner = QAS }
+1444.11.31 = { add_core = MOS owner = MOS add_local_autonomy = -30 }
 
 1452.1.1 = { owner = QAS controller = QAS } # The Qasim Khanate
 1598.1.7 = { unrest = 5 base_manpower = 3 } # "Time of troubles", peasantry brought into serfdom

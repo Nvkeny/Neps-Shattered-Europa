@@ -14,13 +14,19 @@ trade_goods = livestock
 base_manpower = 2
 capital = "Landsberg"
 is_city = yes
-
+add_core = NEU
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
 1402.1.1 = { owner = TEU controller = TEU add_core = TEU }
+
+1444.11.12 = { remove_core = TEU remove_core = BRA owner = NEU }
+1444.11.12 = { HRE = no }
+1444.11.21 = { HRE = yes }
+1444.11.31 = { add_core = TEU add_core = BRA owner = TEU add_local_autonomy = -30 }
+
 1453.1.1 = { owner = BRA controller = BRA remove_core = TEU }
 1536.1.1 = { religion = protestant }
 1650.1.1 = { culture = prussian }

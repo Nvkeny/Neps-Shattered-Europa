@@ -21,6 +21,11 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
+1444.11.12 = { remove_core = SAX add_core = THU owner = THU add_local_autonomy = 0 }
+1444.11.21 = { HRE = no }
+1444.11.31 = { HRE = yes }
+1444.11.31 = { remove_core = THU add_core = SAX owner = SAX add_local_autonomy = -30 }
+
 1445.9.10 = { owner = THU controller = THU add_core = THU }
 1539.1.1 = { religion = protestant }
 1547.5.19 = {
